@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(36, 53, 63);;
+}
+h1{
+    color: rgb(23, 162, 184);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container input{
+    background-color: transparent;
+}
+.container input::placeholder{
+    color: white;
+}
+.container input:focus{
+    border: 1px solid rgb(23, 162, 184);
+}
+.container button{
+    border: 1px solid rgb(23, 162, 184);
+    color: rgb(23, 162, 184);
+    transition: all 0.4s;
+}
+.container button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 162, 184);
+    border-color: rgb(23, 162, 184);
+}
+h5{
+    font-size: 15px;
+}
+h5 a{
+    text-decoration: none;
+}
